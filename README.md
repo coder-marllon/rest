@@ -4,6 +4,8 @@ Este é um projeto **simples de REST API** desenvolvido em **Node.js** como part
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
 
 ---
@@ -12,6 +14,8 @@ Este é um projeto **simples de REST API** desenvolvido em **Node.js** como part
 
 - **Node.js** – Ambiente de execução JavaScript  
 - **Express** – Framework web para criar rotas e gerenciar requisições HTTP  
+- **MySQL** – Banco de dados relacional usado no projeto  
+- **Docker** – Para containerização e fácil configuração do ambiente MySQL  
 - **Nodemon** – Reinicia automaticamente o servidor durante o desenvolvimento  
 - **[Outras tecnologias que você esteja usando, como body-parser ou dotenv]**
 
@@ -22,7 +26,8 @@ Este é um projeto **simples de REST API** desenvolvido em **Node.js** como part
 - Estrutura básica de uma **REST API**  
 - Rotas de exemplo: `GET`, `POST`, `PUT`, `DELETE`  
 - Respostas em **JSON**  
-- Manipulação simples de dados em memória ou arquivo JSON  
+- Conexão e manipulação de dados no banco **MySQL**  
+- Uso do **Docker** para rodar o banco de dados localmente com facilidade  
 
 ---
 
